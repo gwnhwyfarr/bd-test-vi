@@ -31,5 +31,4 @@ create table editora (
     responsavel varchar (30)
 );
 
-
-
+ALTER TABLE EDITORA ADD CONSTRAINT fk_pescarro FOREIGN KEY (id_Pessoa) REFERENCES Pessoa (Id_pessoa);
